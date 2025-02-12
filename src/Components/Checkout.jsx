@@ -9,7 +9,7 @@ const Checkout = ({prop}) => {
   });
   const handleSubmit = async (userData) => {
     try {
-      // console.log(userData);
+      // console.log(userData)
       // console.log(prop);
       const token = localStorage.getItem("token"); //Get token from local storage
       const orderData = {
