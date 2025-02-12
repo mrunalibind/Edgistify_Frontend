@@ -11,7 +11,7 @@ const Checkout = ({prop}) => {
     try {
       // console.log(userData);
       // console.log(prop);
-      const token = localStorage.getItem("token"); // Get token from local storage
+      const token = localStorage.getItem("token"); //Get token from local storage
       const orderData = {
         items: prop.map(({ productID, quantity, price }) => ({
           productID,
