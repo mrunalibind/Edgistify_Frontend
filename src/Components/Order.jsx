@@ -32,7 +32,7 @@ const Order = () => {
         <div>
             {
                 data.length == 0 ? (
-                    <h1>Cart is empty</h1>
+                    <h1>Cart is empty, Add some product</h1>
                 ) :
                     (<>
                         <div className="grid">
